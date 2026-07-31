@@ -1,5 +1,5 @@
-from fineng.dataclasses import OptionType, ExerciseType, MarketData
-from fineng.engines import PricingEngine, BlackScholesMertonEngine
+from fining.dataclasses import OptionType, ExerciseType, MarketData
+from fining.engines import PricingEngine, BlackScholesMertonEngine
 
 __all__ = [
     "OptionType",
