@@ -4,8 +4,8 @@
 
 import numpy as np
 from scipy.stats import norm
-from fineng.dataclasses import MarketData, OptionType
-from fineng.engines.base import PricingEngine
+from fining.dataclasses import MarketData, OptionType
+from fining.engines.base import PricingEngine
 
 class BlackScholesMertonEngine(PricingEngine): 
     @staticmethod
