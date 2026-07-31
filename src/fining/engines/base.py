@@ -3,7 +3,7 @@
 # Description: Define the abc class of pricingEngine
 
 from abc import ABC, abstractmethod
-from fineng.dataclasses import MarketData, OptionType
+from fining.dataclasses import MarketData, OptionType
 
 class PricingEngine(ABC):
     @abstractmethod
