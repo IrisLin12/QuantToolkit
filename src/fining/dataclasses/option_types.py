@@ -9,7 +9,7 @@ class OptionType(Enum):
     CALL = 'call'
     PUT = 'put'
 
-class ExeriseType(Enum):
+class ExerciseType(Enum):
     EUROPEAN = 'european'
     AMERICAN = 'american'
 
