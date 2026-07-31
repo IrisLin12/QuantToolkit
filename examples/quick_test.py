@@ -3,7 +3,7 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent.parent / "src"))
 
-from fineng import MarketData, OptionType, BlackScholesMertonEngine
+from fining import MarketData, OptionType, BlackScholesMertonEngine
 
 def main():
     market_data = MarketData(S=100.0, K=100.0, T=1.0, r=0.05, sigma=0.20, q=0.02)
